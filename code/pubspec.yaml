@@ -1,0 +1,26 @@
+name: uni9_weather_app
+description: >
+  O Uni9 Weather App é o seu guia meteorológico confiável, fornecendo previsões precisas por hora e por dia 
+  e uma interface intuitiva para ajudá-lo a planejar seu dia com confiança, esteja você em casa ou viajando. 
+  Mantenha-se informado e preparado para qualquer condição climática com este aplicativo essencial.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+  build_runner: ^2.4.9
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/background_image.jpg
